@@ -62,8 +62,10 @@ def common_pods
   # These pods are added by Native Builder UI (NBUI) and should not be modified under any circumstances.
   # Do not make any changes to the pods in this section.
   # REQUIRED PODS START
-# Required MendixNative dependency
+
+  # Required MendixNative dependency
   pod 'SSZipArchive'
+
   # REQUIRED PODS END
 end
 
@@ -111,6 +113,9 @@ post_install do |installer|
       # Specify 'Swift Version: 5.0' for resolving archieve errors.
       if target.name == 'react-native-video'
           config.build_settings['SWIFT_VERSION'] = '5.0'
+      end
+      if target.name == 'VisionCamera'
+          config.build_settings['SWIFT_VERSION'] = '5.2'
       end
     end
   end
