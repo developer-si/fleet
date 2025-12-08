@@ -1,9 +1,9 @@
-BUNDLE_DISPLAY_NAME = DV Fleet
-BUNDLE_IDENTIFIER = fleet.prod.dv
+BUNDLE_DISPLAY_NAME = DV Fleet Acceptance
+BUNDLE_IDENTIFIER = fleet.accp.dv
 
 PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER)$(BUNDLE_IDENTIFIER_APPEND)
 
-RUNTIME_URL = https:\/\/dv-fleet.apps.eu-1c.mendixcloud.com
+RUNTIME_URL = https:\/\/dv-fleet-accp.apps.eu-1c.mendixcloud.com
 
 PRODUCT_NAME = fleet
 HERMES_ENABLED = YES

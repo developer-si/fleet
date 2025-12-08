@@ -1,7 +1,7 @@
 {
     "configVersion": 2,
-    "appIdentifier": "fleet.prod.dv",
-    "appName": "DV Fleet",
+    "appIdentifier": "fleet.accp.dv",
+    "appName": "DV Fleet Acceptance",
     "bundleName": {
         "main": "fleet",
         "dev": "fleetDev"
@@ -96,7 +96,7 @@
     ],
     "capabilities": {
         "deepLink": {
-            "value": "fleetprod",
+            "value": "fleetaccp",
             "enabled": true,
             "android": {
                 "webLinks": [
@@ -136,9 +136,9 @@
             "enabled": false
         }
     },
-    "appVersion": "1.0.26",
-    "buildNumber": 5,
-    "runtimeUrl": "https://dv-fleet.apps.eu-1c.mendixcloud.com",
+    "appVersion": "1.0.27",
+    "buildNumber": 4,
+    "runtimeUrl": "https://dv-fleet-accp.apps.eu-1c.mendixcloud.com",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
 }
